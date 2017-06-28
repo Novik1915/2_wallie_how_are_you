@@ -3,7 +3,7 @@ import random
 
 def get_wallie_action():
     possible_actions = [
-        'count new users',
+        'считает новых пользователей',
         'готовит новую задачу',
         'что-то проверяет',
         'придумывает новую ачивку',
