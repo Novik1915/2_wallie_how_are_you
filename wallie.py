@@ -1,9 +1,9 @@
 import random
-
+# coding: utf8
 
 def get_wallie_action():
     possible_actions = [
-        'считает новых пользователей',
+        'count new users',
         'готовит новую задачу',
         'что-то проверяет',
         'придумывает новую ачивку',
