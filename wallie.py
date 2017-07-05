@@ -1,8 +1,9 @@
 import random
+
 # coding: utf8
 
 def get_wallie_action():
-    possible_actions = [
+    possible_action = [
         'считает новых пользователей',
         'готовит новую задачу',
         'что-то проверяет',
@@ -12,7 +13,7 @@ def get_wallie_action():
         'вычитывает статью',
         'ищет стажировки для студентов',
     ]
-    return 'Валли ' + random.choice(possible_actions)
+    return 'Валли ' + random.choice(possible_action)
 
 
 if __name__ == '__main__':
