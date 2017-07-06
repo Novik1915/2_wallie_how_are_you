@@ -1,5 +1,5 @@
 import random
-# coding: utf8
+# -*- coding: utf8 -*-
 
 def get_wallie_action():
     possible_actions = [
